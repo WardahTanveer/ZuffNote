@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "note-app",
-    "slug": "note-app",
+    "name": "ZuffNote",
+    "slug": "ZuffNote",
     "version": "1.0.0",
     "orientation": "portrait",
     //"icon": "./assets/images/icon.png",
-    "scheme": "noteapp",
+    "scheme": "zuffnote",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
