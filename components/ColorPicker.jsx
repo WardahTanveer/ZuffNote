@@ -1,8 +1,8 @@
 //@/components/ColorPicker.jsx
 
-import { View, Text, TextInput, StyleSheet, PanResponder, findNodeHandle, Alert } from "react-native";
-import React, { useState, useEffect, useRef } from "react";
 import { LinearGradient } from "expo-linear-gradient";
+import React, { useEffect, useRef, useState } from "react";
+import { Alert, PanResponder, StyleSheet, Text, TextInput, View, findNodeHandle } from "react-native";
 
 // --- Helper functions ---
 const HSVtoRGB=(h, s, v)=>{
@@ -169,8 +169,14 @@ const ColorPicker=({initialColor="#FF0000FF", onChange})=>{
             x:hsv.s*squareSize,
             y:(1-hsv.v)*squareSize,
         });
-        onChange && onChange(hex);
     }, [hsv, opacity]);
+    const lastHexRef = useRef(hex);
+    useEffect(() => {
+        if (hex !== lastHexRef.current) {
+            lastHexRef.current = hex;
+            onChange && onChange(hex);
+        }
+    }, [hex]);
 
     const handleMeasure=()=>{
         const node=findNodeHandle(pickerRef.current);
