@@ -1,10 +1,10 @@
 // @/app/(main)/_layout.jsx
-import { View, StyleSheet, ScrollView, Dimensions } from "react-native";
 import { Stack } from "expo-router";
+import { Dimensions, StyleSheet, View } from "react-native";
 
-import { Theme } from "@/database/dummyData";
 import Header from "@/components/Header";
 import MenuFooter from "@/components/MenuFooter";
+import { Theme } from "@/data/dummyData";
 
 const screenHeight = Dimensions.get("window").height;
 const screenWidth = Dimensions.get("window").width;

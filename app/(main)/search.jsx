@@ -1,14 +1,14 @@
 //@/app/(main)/search.jsx 
 
-import { View, ImageBackground, ScrollView, Text, StyleSheet, Pressable, Dimensions, TextInput } from "react-native";
-import { useLocalSearchParams } from "expo-router";
-import { useState, useEffect } from "react";
-import { setSearchState, getSearchState } from "@/searchStore";
-import { Theme, groups, notes } from "@/database/dummyData";
+import NoteCheck from "@/components/NoteCheck";
+import NotePreview from "@/components/NotePreview";
 import SearchBar from "@/components/SearchBar.jsx";
 import TitleText from "@/components/TitleText";
-import NotePreview from "@/components/NotePreview";
-import NoteCheck from "@/components/NoteCheck";
+import { Theme, groups, notes } from "@/data/dummyData";
+import { getSearchState, setSearchState } from "@/searchStore";
+import { useLocalSearchParams } from "expo-router";
+import { useEffect, useState } from "react";
+import { Dimensions, ImageBackground, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 
 const screenHeight = Dimensions.get("window").height;
 const screenWidth = Dimensions.get("window").width;

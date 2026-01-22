@@ -1,14 +1,14 @@
 //@/app/(main)/index.jsx
 
-import { View, ScrollView, Text, StyleSheet, Pressable, Dimensions, ImageBackground } from "react-native";
-import { useState } from "react";
-import { useRouter } from "expo-router";
-import { Theme, groups, notes } from "@/database/dummyData";
+import MediumText from "@/components/MediumText";
+import NoteGroup from "@/components/NoteGroup";
+import NotePreview from "@/components/NotePreview";
 import SearchBar from "@/components/SearchBar.jsx";
 import TitleText from "@/components/TitleText";
-import MediumText from "@/components/MediumText";
-import NotePreview from "@/components/NotePreview";
-import NoteGroup from "@/components/NoteGroup";
+import { Theme, groups, notes } from "@/data/dummyData";
+import { useRouter } from "expo-router";
+import { useState } from "react";
+import { Dimensions, ImageBackground, Pressable, ScrollView, StyleSheet, View } from "react-native";
 
 const screenHeight = Dimensions.get("window").height;
 const screenWidth = Dimensions.get("window").width;

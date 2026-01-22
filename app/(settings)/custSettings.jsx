@@ -1,9 +1,9 @@
 //@/app/(settings)/custSettings.jsx
-import { View, ImageBackground, ScrollView, Text, StyleSheet, Dimensions } from "react-native";
-import React, { useState } from "react";
-import { Theme } from "@/database/dummyData";
-import TitleText from "@/components/TitleText";
 import CustMenu from "@/components/CustMenu";
+import TitleText from "@/components/TitleText";
+import { Theme } from "@/data/dummyData";
+import React, { useState } from "react";
+import { Dimensions, ImageBackground, ScrollView, StyleSheet, View } from "react-native";
 
 const screenHeight = Dimensions.get("window").height;
 const screenWidth = Dimensions.get("window").width;

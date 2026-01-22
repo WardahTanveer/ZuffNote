@@ -1,12 +1,12 @@
 // @/app/(note)/note.jsx
-import { View, ImageBackground, Text, StyleSheet, ScrollView, TextInput, Pressable, Dimensions, Alert } from "react-native";
-import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
-import { useLocalSearchParams, useRouter } from "expo-router";
-import { useState, useEffect } from "react";
-import { setTempNote, getTempNote, clearTempNote } from "@/noteStore";
-import { Theme, notes } from "@/database/dummyData";
-import SearchBar from "@/components/SearchBar.jsx";
 import NoteGroup from "@/components/NoteGroup";
+import SearchBar from "@/components/SearchBar.jsx";
+import { Theme, notes } from "@/data/dummyData";
+import { getTempNote, setTempNote } from "@/noteStore";
+import { useLocalSearchParams, useRouter } from "expo-router";
+import { useEffect, useState } from "react";
+import { Alert, Dimensions, ImageBackground, Pressable, StyleSheet, Text, TextInput, View } from "react-native";
+import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 
 const screenHeight = Dimensions.get("window").height;
 const screenWidth = Dimensions.get("window").width;

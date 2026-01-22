@@ -1,9 +1,8 @@
 // @/app/(note)/editHistory.jsx
-import { View, ImageBackground, Text, ScrollView, StyleSheet, Dimensions } from "react-native";
-import { useLocalSearchParams } from "expo-router";
 import NotePreview from "@/components/NotePreview";
-import { Theme, notes } from "@/database/dummyData";
-import MediumText from "@/components/MediumText";
+import { Theme, notes } from "@/data/dummyData";
+import { useLocalSearchParams } from "expo-router";
+import { Dimensions, ImageBackground, ScrollView, StyleSheet, Text, View } from "react-native";
 
 const screenHeight = Dimensions.get("window").height;
 const screenWidth = Dimensions.get("window").width;

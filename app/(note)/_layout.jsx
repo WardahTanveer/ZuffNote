@@ -1,7 +1,7 @@
 // @/app/(note)/_layout.jsx
-import { View, StyleSheet, ScrollView, Dimensions } from "react-native";
+import { Theme, notes } from "@/data/dummyData";
 import { Stack, useLocalSearchParams } from "expo-router";
-import { Theme, notes } from "@/database/dummyData";
+import { Dimensions, StyleSheet, View } from "react-native";
 
 import BackHeader from "@/components/BackHeader";
 import Footer from "@/components/Footer";

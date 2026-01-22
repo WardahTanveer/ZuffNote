@@ -1,0 +1,61 @@
+{
+    "appTheme": {
+        "color1": "#ffffffff",
+        "color2": "#cab29cde",
+        "color3": "#5e3d32ff",
+        "textColor1": "#351f17ff",
+        "textColor2": "#351f17ff",
+        "textColor3": "#ffffffff",
+        "textFont": "Inter, Arial",
+        "bgImage": "@/assets/images/brownBearImg.jpg",
+        "bgOpacity": 0.15
+    },
+    "noteTheme": {
+        "color1": "#ffffffff",
+        "color2": "#cab29cde",
+        "color3": "#5e3d32ff",
+        "textColor1": "#351f17ff",
+        "textColor2": "#351f17ff",
+        "textColor3": "#ffffffff",
+        "textFont": "Inter, Arial",
+        "bgImage": "@/assets/images/brownBearImg.jpg",
+        "bgOpacity": 0.15
+    },
+    "widgetTheme": {
+        "color1": "#ffffffff",
+        "color2": "#cab29cde",
+        "color3": "#5e3d32ff",
+        "textColor1": "#351f17ff",
+        "textColor2": "#351f17ff",
+        "textColor3": "#ffffffff",
+        "textFont": "Inter, Arial",
+        "bgImage": "@/assets/images/brownBearImg.jpg",
+        "bgOpacity": 0.15
+    },
+    "presetThemes": [
+        {
+            "id": "0",
+            "color1": "#ffffffff",
+            "color2": "#cab29cde",
+            "color3": "#5e3d32ff",
+            "textColor1": "#351f17ff",
+            "textColor2": "#351f17ff",
+            "textColor3": "#ffffffff",
+            "textFont": "Inter, Arial",
+            "bgImage": "@/assets/images/brownBearImg.jpg",
+            "bgOpacity": 0.15
+        },
+        {
+            "id": "1",
+            "color1": "#ffffffff",
+            "color2": "#ffffffc0",
+            "color3": "#946657ff",
+            "textColor1": "#547894ff",
+            "textColor2": "#547894ff",
+            "textColor3": "#ffffffff",
+            "textFont": "Inter, Arial",
+            "bgImage": "@/assets/images/cozyChristmasMorningCoffee.jpeg", 
+            "bgOpacity": 0.75
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 // @/components/NoteGroup.jsx
 
-import { View, Text, StyleSheet } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 function NoteGroup(props){
     return (

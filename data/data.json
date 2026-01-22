@@ -337,37 +337,39 @@
         }
     ], 
     "groups": ["Pinned", "Diary", "Tasks", "Ideas", "Stories", "Thoughts", "Misc"],
-    "appTheme": {
-        "color1": "#ffffffff",
-        "color2": "#cab29cde",
-        "color3": "#5e3d32ff",
-        "textColor1": "#351f17ff",
-        "textColor2": "#351f17ff",
-        "textColor3": "#ffffffff",
-        "textFont": "Inter, Arial",
-        "bgImage": "@/assets/images/brownBearImg.jpg",
-        "bgOpacity": 0.15
-    },
-    "noteTheme": {
-        "color1": "#fff8e7ff",
-        "color2": "#f5d6b1ff",
-        "color3": "#b27c4fff",
-        "textColor1": "#3b2f2fff",
-        "textColor2": "#3b2f2fff",
-        "textColor3": "#ffffffff",
-        "textFont": "Arial, sans-serif",
-        "bgImage": null,
-        "bgOpacity": 1
-    },
-    "widgetTheme": {
-        "color1": "#fff0f5",
-        "color2": "#ffb6c1",
-        "color3": "#c71585",
-        "textColor1": "#3a003a",
-        "textColor2": "#3a003a",
-        "textColor3": "#ffffffff",
-        "textFont": "Tahoma, sans-serif",
-        "bgImage": null,
-        "bgOpacity": 1
+    "themes": {
+        "appTheme": {
+            "color1": "#ffffffff",
+            "color2": "#cab29cde",
+            "color3": "#5e3d32ff",
+            "textColor1": "#351f17ff",
+            "textColor2": "#351f17ff",
+            "textColor3": "#ffffffff",
+            "textFont": "Inter, Arial",
+            "bgImage": "@/assets/images/brownBearImg.jpg",
+            "bgOpacity": 0.15
+        },
+        "noteTheme": {
+            "color1": "#fff8e7ff",
+            "color2": "#f5d6b1ff",
+            "color3": "#b27c4fff",
+            "textColor1": "#3b2f2fff",
+            "textColor2": "#3b2f2fff",
+            "textColor3": "#ffffffff",
+            "textFont": "Arial, sans-serif",
+            "bgImage": null,
+            "bgOpacity": 1
+        },
+        "widgetTheme": {
+            "color1": "#fff0f5",
+            "color2": "#ffb6c1",
+            "color3": "#c71585",
+            "textColor1": "#3a003a",
+            "textColor2": "#3a003a",
+            "textColor3": "#ffffffff",
+            "textFont": "Tahoma, sans-serif",
+            "bgImage": null,
+            "bgOpacity": 1
+        }
     }
 }

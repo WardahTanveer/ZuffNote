@@ -1,4 +1,4 @@
-//@/database/dummyData.js
+//@/data/dummyData.js
 
 //Global themes
 const appTheme={
