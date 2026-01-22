@@ -1,215 +1,337 @@
 {
     "notes": [
         {
-            "id": 1,
+            "id": "1",
             "groups": ["Pinned", "Diary"],
             "noteTheme": {
-            "color1": "#ffffffff",
-            "color2": "#9ca7caff",
-            "color3": "#36325eff",
-            "textColor1": "#171735ff",
-            "textColor2": "#171735ff",
-            "textColor3": "#ffffffff",
-            "textFont": "Inter, Arial",
-            "bgImage": null,
-            "bgOpacity": 1
+                "color1": "#ffffffff",
+                "color2": "#9ca7caff",
+                "color3": "#36325eff",
+                "textColor1": "#171735ff",
+                "textColor2": "#171735ff",
+                "textColor3": "#ffffffff",
+                "textFont": "Inter, Arial",
+                "bgImage": null,
+                "bgOpacity": 1
             },
             "editHistory": [
             {
+                "id":"1.3",
                 "date": "2025-10-11",
                 "time": "10:15 AM",
-                "content": "This is my most important note. I’ll pin it so I never forget what I promised myself today. I think it's important to remember certain things, isn't it?"
+                "content": [
+                    {"id":"1.3.1", "type": "text", "data": {
+                        "text": "This is my most important note. I’ll pin it so I never forget what I promised myself today. I think it's important to remember certain things, isn't it?"
+                    }},
+                    {"id":"1.3.2", "type": "checklist", "data": {
+                        "items": [
+                            {"id":"1.3.2.1", "text": "Wake up", "checked": true},
+                            {"id":"1.3.2.2", "text": "Breakfast", "checked": true},
+                            {"id":"1.3.2.3", "text": "Study", "checked": true},
+                            {"id":"1.3.2.4", "text": "Take rest", "checked": false}
+                        ]
+                    }}
+                ]
             },
             {
+                "id":"1.2",
                 "date": "2025-10-10",
                 "time": "9:02 PM",
-                "content": "Pinned this one because it matters more than I can say — a reminder of my aspirations and intentions."
+                "content": [
+                    {"id":"1.2.1", "type": "text", "data": {
+                        "text": "Pinned this one because it matters more than I can say — a reminder of my aspirations and intentions."
+                    }}
+                ]
             },
             {
+                "id":"1.1",
                 "date": "2025-10-09",
                 "time": "6:40 PM",
-                "content": "Creating little affirmations daily. Perhaps one day, they'll form a tapestry of my growth."
+                "content": [
+                    {"id":"1.1.1", "type": "text", "data": {
+                        "text": "Creating little affirmations daily. Perhaps one day, they'll form a tapestry of my growth."
+                    }}
+                ]
             },
             {
+                "id":"1.0",
                 "date": "2025-10-08",
                 "time": "4:22 PM",
-                "content": "Testing pinned notes for important reminders. I want to start prioritizing my tasks more effectively."
+                "content": [
+                    {"id":"1.0.1", "type": "text", "data": {
+                        "text": "Testing pinned notes for important reminders. I want to start prioritizing my tasks more effectively."
+                    }}
+                ]
             }
             ]
         },
         {
-            "id": 2,
+            "id": "2",
             "groups": ["Diary"],
             "noteTheme": {
-            "color1": "#fff8e7ff",
-            "color2": "#f5d6b1ff",
-            "color3": "#b27c4fff",
-            "textColor1": "#3b2f2fff",
-            "textColor2": "#3b2f2fff",
-            "textColor3": "#ffffffff",
-            "textFont": "Arial, sans-serif",
-            "bgImage": null,
-            "bgOpacity": 1
+                "color1": "#fff8e7ff",
+                "color2": "#f5d6b1ff",
+                "color3": "#b27c4fff",
+                "textColor1": "#3b2f2fff",
+                "textColor2": "#3b2f2fff",
+                "textColor3": "#ffffffff",
+                "textFont": "Arial, sans-serif",
+                "bgImage": null,
+                "bgOpacity": 1
             },
             "editHistory": [
             {
+                "id":"2.0",
                 "date": "2025-10-09",
                 "time": "7:15 PM",
-                "content": "Reflecting on small victories today — a reminder that consistency matters more than perfection."
+                "content": [
+                    {"id":"2.0.1", "type": "text", "data": {
+                        "text": "Reflecting on small victories today — a reminder that consistency matters more than perfection."
+                    }}
+                ]
             }
             ]
         },
         {
-            "id": 3,
+            "id": "3",
             "groups": ["Tasks", "Ideas"],
             "editHistory": [
             {
+                "id":"3.1",
                 "date": "2025-10-08",
                 "time": "4:22 PM",
-                "content": "Organizing my tasks for the week; I need a clearer schedule to feel less overwhelmed."
+                "content": [
+                    {"id":"3.1.1", "type": "text", "data": {
+                        "text": "Organizing my tasks for the week; I need a clearer schedule to feel less overwhelmed."
+                    }}
+                ]
             },
             {
+                "id":"3.0",
                 "date": "2025-10-07",
                 "time": "2:30 PM",
-                "content": "Drafting ideas for the new app UI. Exploring color palettes that are soft but intuitive."
+                "content": [
+                    {"id":"3.0.1", "type": "text", "data": {
+                        "text": "Drafting ideas for the new app UI. Exploring color palettes that are soft but intuitive."
+                    }}
+                ]
             }
             ]
         },
         {
-            "id": 4,
+            "id": "4",
             "groups": [],
             "editHistory": [
             {
+                "id":"4.0",
                 "date": "2025-10-06",
                 "time": "11:05 AM",
-                "content": "Note to self: Take breaks today. Even short pauses are valuable for mental clarity."
+                "content": [
+                    {"id":"4.0.1", "type": "text", "data": {
+                        "text": "Note to self: Take breaks today. Even short pauses are valuable for mental clarity."
+                    }},
+                    {"id":"4.0.2", "type": "image", "data": {
+                        "uri": "some link here",
+                        "alt": "Cozy Morning"
+                    }}
+                ]
             }
             ]
         },
         {
-            "id": 5,
+            "id": "5",
             "groups": ["Stories"],
             "noteTheme": {
-            "color1": "#e8f0ff",
-            "color2": "#a3c4f3",
-            "color3": "#5577cc",
-            "textColor1": "#1c1c1c",
-            "textColor2": "#1c1c1c",
-            "textColor3": "#ffffffff",
-            "textFont": "Georgia, serif",
-            "bgImage": null,
-            "bgOpacity": 1
+                "color1": "#e8f0ff",
+                "color2": "#a3c4f3",
+                "color3": "#5577cc",
+                "textColor1": "#1c1c1c",
+                "textColor2": "#1c1c1c",
+                "textColor3": "#ffffffff",
+                "textFont": "Georgia, serif",
+                "bgImage": null,
+                "bgOpacity": 1
             },
             "editHistory": [
             {
+                "id":"5.1",
                 "date": "2025-10-05",
                 "time": "9:30 PM",
-                "content": "Brainstorming story ideas with whimsical details — aiming for hopeful yet bittersweet tones."
+                "content": [
+                    {"id":"5.1.1", "type": "text", "data": {
+                        "text": "Brainstorming story ideas with whimsical details — aiming for hopeful yet bittersweet tones."
+                    }}
+                ]
             },
             {
+                "id":"5.0",
                 "date": "2025-10-04",
                 "time": "8:15 PM",
-                "content": "Refining plot arcs for clarity and emotional impact. Open endings feel satisfying if done well."
+                "content": [
+                    {"id":"5.0.1", "type": "text", "data": {
+                        "text": "Refining plot arcs for clarity and emotional impact. Open endings feel satisfying if done well."
+                    }}
+                ]
             }
             ]
         },
         {
-            "id": 6,
+            "id": "6",
             "groups": ["Pinned"],
             "noteTheme":{
-            "color1": "#ffffffff",
-            "color2": "#ffffffc0",
-            "color3": "#946657ff",
-            "textColor1": "#547894ff",
-            "textColor2": "#547894ff",
-            "textColor3": "#ffffffff",
-            "textFont": "Inter, Arial",
-            "bgImage": "@/assets/images/cozyChristmasMorningCoffee.jpeg", 
-            "bgOpacity": 0.75
+                "color1": "#ffffffff",
+                "color2": "#ffffffc0",
+                "color3": "#946657ff",
+                "textColor1": "#547894ff",
+                "textColor2": "#547894ff",
+                "textColor3": "#ffffffff",
+                "textFont": "Inter, Arial",
+                "bgImage": "@/assets/images/cozyChristmasMorningCoffee.jpeg", 
+                "bgOpacity": 0.75
             },
             "editHistory": [
             {
+                "id":"6.3",
                 "date": "2025-10-11",
                 "time": "11:30 AM",
-                "content": "'Be patient with slow growth.' A gentle reminder that small steps accumulate over time."
+                "content": [
+                    {"id":"6.3.1", "type": "text", "data": {
+                        "text": "'Be patient with slow growth.' A gentle reminder that small steps accumulate over time."
+                    }}
+                ]
             },
             {
+                "id":"6.2",
                 "date": "2025-10-10",
                 "time": "10:45 PM",
-                "content": "Consistency outweighs perfection. Progress is progress, no matter how small."
+                "content": [
+                    {"id":"6.2.1", "type": "text", "data": {
+                        "text": "Consistency outweighs perfection. Progress is progress, no matter how small."
+                    }}
+                ]
             },
             {
+                "id":"6.1",
                 "date": "2025-10-10",
                 "time": "8:20 PM",
-                "content": "Pinned quote: 'Do it scared, do it small, just do it.' Movement matters more than comfort."
+                "content": [
+                    {"id":"6.1.1", "type": "text", "data": {
+                        "text": "Pinned quote: 'Do it scared, do it small, just do it.' Movement matters more than comfort."
+                    }}
+                ]
             },
             {
+                "id":"6.0",
                 "date": "2025-10-09",
                 "time": "7:10 PM",
-                "content": "Empty canvas today, but opportunity to create something meaningful tomorrow."
+                "content": [
+                    {"id":"6.0.1", "type": "text", "data": {
+                        "text": "Empty canvas today, but opportunity to create something meaningful tomorrow."
+                    }}
+                ]
             }
             ]
         },
         {
-            "id": 7,
+            "id": "7",
             "groups": ["Pinned", "Diary"],
             "noteTheme": {
-            "color1": "#fff0f5",
-            "color2": "#ffb6c1",
-            "color3": "#c71585",
-            "textColor1": "#3a003a",
-            "textColor2": "#3a003a",
-            "textColor3": "#ffffffff",
-            "textFont": "Tahoma, sans-serif",
-            "bgImage": null,
-            "bgOpacity": 1
+                "color1": "#fff0f5",
+                "color2": "#ffb6c1",
+                "color3": "#c71585",
+                "textColor1": "#3a003a",
+                "textColor2": "#3a003a",
+                "textColor3": "#ffffffff",
+                "textFont": "Tahoma, sans-serif",
+                "bgImage": null,
+                "bgOpacity": 1
             },
             "editHistory": [
             {
+                "id":"7.3",
                 "date": "2025-10-12",
                 "time": "8:14 AM",
-                "content": "Pinned for reflection: tracking how far I've come even when it feels minimal."
+                "content": [
+                    {"id":"7.3.1", "type": "text", "data": {
+                        "text": "Pinned for reflection: tracking how far I've come even when it feels minimal."
+                    }}
+                ]
             },
             {
+                "id":"7.2",
                 "date": "2025-10-11",
                 "time": "11:59 PM",
-                "content": "Half-asleep scribbles, grounding me in the present."
+                "content": [
+                    {"id":"7.2.1", "type": "text", "data": {
+                        "text": "Half-asleep scribbles, grounding me in the present."
+                    }}
+                ]
             },
             {
+                "id":"7.1",
                 "date": "2025-10-10",
                 "time": "6:10 PM",
-                "content": "Accepting imperfect progress. It's still forward movement."
+                "content": [
+                    {"id":"7.1.1", "type": "text", "data": {
+                        "text": "Accepting imperfect progress. It's still forward movement."
+                    }}
+                ]
             },
             {
+                "id":"7.0",
                 "date": "2025-10-09",
                 "time": "1:47 PM",
-                "content": "Just a small pinned reminder to keep perspective."
+                "content": [
+                    {"id":"7.0.1", "type": "text", "data": {
+                        "text": "Just a small pinned reminder to keep perspective."
+                    }}
+                ]
             }
             ]
         },
         {
-            "id": 8,
+            "id": "8",
             "groups": ["Diary"],
             "editHistory": [
             {
+                "id":"8.3",
                 "date": "2025-10-12",
                 "time": "9:22 PM",
-                "content": "Stepped outside today after a long pause. The air felt heavier, yet healing."
+                "content": [
+                    {"id":"8.3.1", "type": "text", "data": {
+                        "text": "Stepped outside today after a long pause. The air felt heavier, yet healing."
+                    }}
+                ]
             },
             {
+                "id":"8.2",
                 "date": "2025-10-12",
                 "time": "6:11 PM",
-                "content": "Observing how days blend when fatigue sets in; need more mindful journaling."
+                "content": [
+                    {"id":"8.2.1", "type": "text", "data": {
+                        "text": "Observing how days blend when fatigue sets in; need more mindful journaling."
+                    }}
+                ]
             },
             {
+                "id":"8.1",
                 "date": "2025-10-11",
                 "time": "8:32 PM",
-                "content": "Missed journaling yesterday — a gentle nudge to restart."
+                "content": [
+                    {"id":"8.1.1", "type": "text", "data": {
+                        "text": "Missed journaling yesterday — a gentle nudge to restart."
+                    }}
+                ]
             },
             {
+                "id":"8.0",
                 "date": "2025-10-10",
                 "time": "10:00 AM",
-                "content": "Starting fresh with a new journaling habit. Small steps count."
+                "content": [
+                    {"id":"8.0.1", "type": "text", "data": {
+                        "text": "Starting fresh with a new journaling habit. Small steps count."
+                    }}
+                ]
             }
             ]
         }
